@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from main_v1 import TravelAssistant
+from main import TravelAssistant
 
 # Streamlit UI
 def main():
