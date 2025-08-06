@@ -1,5 +1,6 @@
-# kavak-travel-assistant
-An AI-powered travel assistant that helps users with visa and flight information using OpenAI, FAISS, and Streamlit.
+# ✈️ Kavak Travel Assistant
+
+An AI-powered travel planner that simplifies international trip planning through intelligent conversation.
 
 ## 🚀 Overview
 
@@ -17,18 +18,18 @@ Built as a technical case study for Kavak.
 * *Natural Language Flight Search:* Handles multi-criteria queries like "round-trip to Tokyo in August under \$1000 with Star Alliance."
 * *RAG-based Visa & Policy Info:* Retrieves info from a vectorized knowledge base using sentence-transformers + FAISS.
 * *OpenAI Function Calling:* Routes user intent to appropriate tools: search_flights, get_visa_info, get_policy_info.
-* *Modular Architecture:* Core logic in main_v1.py, UI in app.py.
+* *Modular Architecture:* Core logic in app_logic.py, UI in streamlit_app.py.
 * *Streamlit Chat UI:* Simple, intuitive frontend for interaction.
 
 ## 🦾 Project Structure
 
-
+text
 ├── main.py          # Core logic and tool implementations
-├── app.py      # Streamlit UI
+├── app.py           # Streamlit UI
 ├── data/
 │   ├── flights.json      # Mock flight data
 │   └── visa_rules.md     # Knowledge base docs
-├── .env         # Template for environment variables
+├── .env                 # Template for environment variables
 ├── requirements.txt      # Dependencies
 └── README.md             # Project guide
 
@@ -70,7 +71,7 @@ Built as a technical case study for Kavak.
 5. *Run the app*
 
    bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    
 
 ## 🧠 System Logic
