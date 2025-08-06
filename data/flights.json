@@ -1,0 +1,52 @@
+[
+  {
+    "airline": "Turkish Airlines",
+    "alliance": "Star Alliance",
+    "origin": "Dubai",
+    "destination": "Tokyo",
+    "departure_date": "2024-08-15",
+    "return_date": "2024-08-30",
+    "layovers": [
+      "Istanbul"
+    ],
+    "price_usd": 950,
+    "refundable": true
+  },
+  {
+    "airline": "Emirates",
+    "alliance": "Non-Alliance",
+    "origin": "Dubai",
+    "destination": "Tokyo",
+    "departure_date": "2024-08-15",
+    "return_date": "2024-08-30",
+    "layovers": [],
+    "price_usd": 1200,
+    "refundable": true
+  },
+  {
+    "airline": "ANA",
+    "alliance": "Star Alliance",
+    "origin": "Dubai",
+    "destination": "Tokyo",
+    "departure_date": "2024-08-16",
+    "return_date": "2024-08-31",
+    "layovers": [
+      "Doha"
+    ],
+    "price_usd": 850,
+    "refundable": false
+  },
+  {
+    "airline": "Lufthansa",
+    "alliance": "Star Alliance",
+    "origin": "Dubai",
+    "destination": "Berlin",
+    "departure_date": "2024-08-20",
+    "return_date": "2024-09-05",
+    "layovers": [
+      "Frankfurt"
+    ],
+    "price_usd": 750,
+    "refundable": true
+  }
+]
