@@ -23,7 +23,7 @@ Built as a technical case study for Kavak.
 
 ## 🦾 Project Structure
 
-
+text<br>
 ├── main.py          # Core logic and tool implementations<br>
 ├── app.py           # Streamlit UI<br>
 ├── data/<br>
