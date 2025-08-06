@@ -71,7 +71,7 @@ text
 5. *Run the app*
 
    bash
-   streamlit run streamlit_app.py
+   streamlit run app.py
    
 
 ## 🧠 System Logic
@@ -85,23 +85,127 @@ text
 
 ## 🧪 Sample Interactions
 
-*Flight Search:*
+*Use Case 1*
 
-> "Find me a round-trip to Tokyo in August with Star Alliance, under \$1000."
+> user: Find me flights from Dubai to Tokyo
 
-Returns matching flights with prices, airlines, and layover info.
+assistant:
 
-*Visa Info:*
+I found 3 flight options for you from Dubai to Tokyo:
 
-> "Do UAE citizens need a visa for Germany?"
 
-Returns clear visa requirements from the RAG database.
+ANA (Star Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-16 to 2024-08-31
+    Layovers: Doha
+    Price: $850
+    Refundable: No
 
-*Policy Info:*
+Turkish Airlines (Star Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-15 to 2024-08-30
+    Layovers: Istanbul
+    Price: $950
+    Refundable: Yes
 
-> "What is the baggage policy for economy class?"
+Emirates (Non-Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-15 to 2024-08-30
+    Direct flight
+    Price: $1200
+    Refundable: Yes
 
-Returns baggage limits based on policy documents.
+
+Please let me know if you would like more details or assistance with booking any of these flights.
+
+*Use Case 2*
+
+> user: Show me refundable flights from Dubai to Tokyo under \$1000
+
+assistant:
+
+I found one refundable flight option for you from Dubai to Tokyo under \$1000:
+
+
+Turkish Airlines (Star Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-15 to 2024-08-30
+    Layovers: Istanbul
+    Price: $950
+    Refundable: Yes
+
+
+Let me know if you need more information or if you would like to proceed with booking this flight.
+
+*Use Case 3*
+
+> user: Show me all flights to Tokyo but exclude overnight layovers
+
+assistant:
+
+I found 3 flight options for you to Tokyo without overnight layovers:
+
+
+ANA (Star Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-16 to 2024-08-31
+    Layovers: Doha
+    Price: $850
+    Refundable: No
+
+Turkish Airlines (Star Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-15 to 2024-08-30
+    Layovers: Istanbul
+    Price: $950
+    Refundable: Yes
+
+Emirates (Non-Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-15 to 2024-08-30
+    Direct flight
+    Price: $1200
+    Refundable: Yes
+
+
+Please let me know if you need more information or assistance with booking any of these flights.
+
+*Use Case 4*
+
+> user: I would love option 01
+
+assistant:
+
+Great choice! I can assist you with booking the flight on ANA from Dubai to Tokyo with a layover in Doha.
+
+Before we proceed, could you please provide me with the passenger's full name, date of birth, and contact information (email and phone number) for the booking?
+
+*Use Case 5*
+
+> user: Do I need a visa for Japan?
+
+assistant:
+
+Based on the information provided, as a UAE passport holder, you can enter Japan visa-free for up to 30 days for tourism purposes. Just make sure your passport is valid for at least 6 months. If you have any specific questions or need further assistance with your travel plans, feel free to ask!
+
+*Use Case 6*
+
+> user: I want Star Alliance flights from Dubai to Tokyo, departing August 15th, returning August 30th, refundable tickets only, under \$1200
+
+assistant:
+
+I found a flight option for you that meets your criteria:
+
+
+Turkish Airlines (Star Alliance)
+    Route: Dubai → Tokyo
+    Dates: 2024-08-15 to 2024-08-30
+    Layovers: Istanbul
+    Price: $950
+    Refundable: Yes
+
+
+Please let me know if you would like to proceed with booking this flight or if you need any further assistance.
 
 ## 🧹 Evaluation Highlights
 
