@@ -23,15 +23,15 @@ Built as a technical case study for Kavak.
 
 ## 🦾 Project Structure
 
-text
-├── main.py          # Core logic and tool implementations
-├── app.py           # Streamlit UI
-├── data/
-│   ├── flights.json      # Mock flight data
-│   └── visa_rules.md     # Knowledge base docs
-├── .env                 # Template for environment variables
-├── requirements.txt      # Dependencies
-└── README.md             # Project guide
+
+├── main.py          # Core logic and tool implementations<br>
+├── app.py           # Streamlit UI<br>
+├── data/<br>
+│   ├── flights.json      # Mock flight data<br>
+│   └── visa_rules.md     # Knowledge base docs<br>
+├── .env                 # Template for environment variables<br>
+├── requirements.txt      # Dependencies<br>
+└── README.md             # Project guide<br>
 
 
 > Note: Data is loaded internally for self-contained testing.
